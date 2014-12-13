@@ -20,3 +20,5 @@
 Pods/*
 
 **/*.ipa
+
+ImageCaptureSample/Base.lproj/Main.storyboard
