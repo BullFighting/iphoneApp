@@ -85,7 +85,6 @@
 	AudioServicesCreateSystemSoundID((__bridge CFURLRef)shutterSoundURL, &shutterSoundID);
 	self.shutterSound = shutterSoundID;
 }
-
 - (void)didReceiveMemoryWarning
 {
      [super didReceiveMemoryWarning];
@@ -141,6 +140,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
 	[super viewDidAppear:animated];
+    [self takePicture];
     [UIApplication sharedApplication].idleTimerDisabled = YES;
 }
 

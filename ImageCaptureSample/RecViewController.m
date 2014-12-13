@@ -41,7 +41,10 @@
 	[self.navigationController setNavigationBarHidden:YES animated:animated];
     self.imageView.image = self.image;
 }
-
+- (void)viewDidAppear:(BOOL)animated
+{
+    [self performSegueWithIdentifier:@"backToLiveView" sender:self];
+}
 - (IBAction)viewDidTap:(id)sender
 {
 	[self performSegueWithIdentifier:@"backToLiveView" sender:self];
