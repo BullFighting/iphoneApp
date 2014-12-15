@@ -16,8 +16,6 @@
 
 @interface BFKonashi : Konashi
 
-+(void)uartSend:(int *)num;
-+(void)pinSend:(int *)num;
-
++(void)pinSend:(int)num;
 
 @end

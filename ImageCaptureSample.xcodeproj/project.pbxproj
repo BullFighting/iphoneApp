@@ -29,6 +29,7 @@
 		4FA91109191B04910040A592 /* ShutterSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4FA91108191B04910040A592 /* ShutterSound.caf */; };
 		6B3762861A3CFB1800D9086B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3762851A3CFB1800D9086B /* CoreBluetooth.framework */; };
 		6B3762881A3D096100D9086B /* BFKonashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3762871A3D096000D9086B /* BFKonashi.m */; };
+		6B5310B71A3F14CC00654258 /* ImageProcessing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B5310B61A3F14CC00654258 /* ImageProcessing.mm */; };
 		98C510FA02E2EB062B95C49F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F0AF7FD82FF4B15BAFD77E /* libPods.a */; };
 		D8AAACC819FF84CE00699F07 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AAACC719FF84CE00699F07 /* Reachability.m */; };
 		D8AAACCB19FF84D400699F07 /* ConnectingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AAACCA19FF84D400699F07 /* ConnectingViewController.m */; };
@@ -72,6 +73,8 @@
 		6B3762851A3CFB1800D9086B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		6B3762871A3D096000D9086B /* BFKonashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFKonashi.m; sourceTree = "<group>"; };
 		6B3762891A3D097300D9086B /* BFKonashi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFKonashi.h; sourceTree = "<group>"; };
+		6B5310B51A3F14CC00654258 /* ImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessing.h; sourceTree = "<group>"; };
+		6B5310B61A3F14CC00654258 /* ImageProcessing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessing.mm; sourceTree = "<group>"; };
 		9012DB15414CFEF46DC5B5F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D8AAACC619FF84CE00699F07 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		D8AAACC719FF84CE00699F07 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 				31BD78FA1923116E00B57B6E /* CameraLiveImageView.m */,
 				311202CC1909EF0D0064C413 /* LiveViewController.h */,
 				311202CD1909EF0D0064C413 /* LiveViewController.m */,
+				6B5310B51A3F14CC00654258 /* ImageProcessing.h */,
+				6B5310B61A3F14CC00654258 /* ImageProcessing.mm */,
 				3199DD331912068D00BD5F1A /* ParameterViewController.h */,
 				3199DD341912068D00BD5F1A /* ParameterViewController.m */,
 				31A68FA11910D25C008B3CDA /* RecViewController.h */,
@@ -293,6 +298,7 @@
 				3199DD351912068D00BD5F1A /* ParameterViewController.m in Sources */,
 				311202CE1909EF0D0064C413 /* LiveViewController.m in Sources */,
 				D8AAACC819FF84CE00699F07 /* Reachability.m in Sources */,
+				6B5310B71A3F14CC00654258 /* ImageProcessing.mm in Sources */,
 				311202C81909EF0D0064C413 /* AppDelegate.m in Sources */,
 				6B3762881A3D096100D9086B /* BFKonashi.m in Sources */,
 				311202C41909EF0D0064C413 /* main.m in Sources */,
