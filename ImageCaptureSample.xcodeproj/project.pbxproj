@@ -27,11 +27,15 @@
 		4F114D9F1919C5E700C565B7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F114D9E1919C5E700C565B7 /* AudioToolbox.framework */; };
 		4F2C2C031919CF300092A6C8 /* FocusedSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C2C021919CB8F0092A6C8 /* FocusedSound.caf */; };
 		4FA91109191B04910040A592 /* ShutterSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4FA91108191B04910040A592 /* ShutterSound.caf */; };
+		6B3762861A3CFB1800D9086B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3762851A3CFB1800D9086B /* CoreBluetooth.framework */; };
+		6B3762881A3D096100D9086B /* BFKonashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3762871A3D096000D9086B /* BFKonashi.m */; };
+		98C510FA02E2EB062B95C49F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F0AF7FD82FF4B15BAFD77E /* libPods.a */; };
 		D8AAACC819FF84CE00699F07 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AAACC719FF84CE00699F07 /* Reachability.m */; };
 		D8AAACCB19FF84D400699F07 /* ConnectingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AAACCA19FF84D400699F07 /* ConnectingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C762DC635289D9D2C45DD81 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		311202B41909EF0D0064C413 /* ImageCaptureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCaptureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		311202B71909EF0D0064C413 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		311202B91909EF0D0064C413 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,6 +65,14 @@
 		4F114D9E1919C5E700C565B7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4F2C2C021919CB8F0092A6C8 /* FocusedSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FocusedSound.caf; sourceTree = "<group>"; };
 		4FA91108191B04910040A592 /* ShutterSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShutterSound.caf; sourceTree = "<group>"; };
+		54F0AF7FD82FF4B15BAFD77E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B37627F1A3C3EE800D9086B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		6B3762811A3C3F0E00D9086B /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		6B3762821A3C3F0E00D9086B /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		6B3762851A3CFB1800D9086B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6B3762871A3D096000D9086B /* BFKonashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFKonashi.m; sourceTree = "<group>"; };
+		6B3762891A3D097300D9086B /* BFKonashi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFKonashi.h; sourceTree = "<group>"; };
+		9012DB15414CFEF46DC5B5F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D8AAACC619FF84CE00699F07 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		D8AAACC719FF84CE00699F07 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		D8AAACC919FF84D400699F07 /* ConnectingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectingViewController.h; sourceTree = "<group>"; };
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3762861A3CFB1800D9086B /* CoreBluetooth.framework in Frameworks */,
 				4F114D9F1919C5E700C565B7 /* AudioToolbox.framework in Frameworks */,
 				314AB607190A28FD0069D1BF /* CFNetwork.framework in Frameworks */,
 				314AB608190A28FD0069D1BF /* ImageIO.framework in Frameworks */,
@@ -80,6 +93,7 @@
 				311202BC1909EF0D0064C413 /* UIKit.framework in Frameworks */,
 				311202B81909EF0D0064C413 /* Foundation.framework in Frameworks */,
 				314AB603190A28E30069D1BF /* OLYCameraKit.framework in Frameworks */,
+				98C510FA02E2EB062B95C49F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +106,7 @@
 				311202BD1909EF0D0064C413 /* ImageCaptureSample */,
 				311202B61909EF0D0064C413 /* Frameworks */,
 				311202B51909EF0D0064C413 /* Products */,
+				80358F50220103212C64AB11 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +121,10 @@
 		311202B61909EF0D0064C413 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6B3762851A3CFB1800D9086B /* CoreBluetooth.framework */,
+				6B3762811A3C3F0E00D9086B /* libc++.1.dylib */,
+				6B3762821A3C3F0E00D9086B /* libc++abi.dylib */,
+				6B37627F1A3C3EE800D9086B /* libc++.dylib */,
 				4F114D9E1919C5E700C565B7 /* AudioToolbox.framework */,
 				314AB604190A28FD0069D1BF /* CFNetwork.framework */,
 				314AB605190A28FD0069D1BF /* ImageIO.framework */,
@@ -114,6 +133,7 @@
 				311202B71909EF0D0064C413 /* Foundation.framework */,
 				311202B91909EF0D0064C413 /* CoreGraphics.framework */,
 				311202BB1909EF0D0064C413 /* UIKit.framework */,
+				54F0AF7FD82FF4B15BAFD77E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,6 +158,8 @@
 				31A68FA21910D25C008B3CDA /* RecViewController.m */,
 				31A68FA41910D363008B3CDA /* SettingViewController.h */,
 				31A68FA51910D363008B3CDA /* SettingViewController.m */,
+				6B3762891A3D097300D9086B /* BFKonashi.h */,
+				6B3762871A3D096000D9086B /* BFKonashi.m */,
 				311202CF1909EF0D0064C413 /* Images.xcassets */,
 				311202BE1909EF0D0064C413 /* Supporting Files */,
 			);
@@ -157,6 +179,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		80358F50220103212C64AB11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C762DC635289D9D2C45DD81 /* Pods.debug.xcconfig */,
+				9012DB15414CFEF46DC5B5F8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 311202E61909EF0D0064C413 /* Build configuration list for PBXNativeTarget "ImageCaptureSample" */;
 			buildPhases = (
+				66797F270D97E9A63D260729 /* Check Pods Manifest.lock */,
 				311202B01909EF0D0064C413 /* Sources */,
 				311202B11909EF0D0064C413 /* Frameworks */,
 				311202B21909EF0D0064C413 /* Resources */,
+				A8569475417A514D14A046BC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +252,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66797F270D97E9A63D260729 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8569475417A514D14A046BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		311202B01909EF0D0064C413 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -228,6 +294,7 @@
 				311202CE1909EF0D0064C413 /* LiveViewController.m in Sources */,
 				D8AAACC819FF84CE00699F07 /* Reachability.m in Sources */,
 				311202C81909EF0D0064C413 /* AppDelegate.m in Sources */,
+				6B3762881A3D096100D9086B /* BFKonashi.m in Sources */,
 				311202C41909EF0D0064C413 /* main.m in Sources */,
 				31A68FA31910D25C008B3CDA /* RecViewController.m in Sources */,
 				31A68FA61910D363008B3CDA /* SettingViewController.m in Sources */,
@@ -332,6 +399,7 @@
 		};
 		311202E71909EF0D0064C413 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C762DC635289D9D2C45DD81 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -352,6 +420,7 @@
 		};
 		311202E81909EF0D0064C413 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9012DB15414CFEF46DC5B5F8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

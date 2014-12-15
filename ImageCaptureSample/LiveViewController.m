@@ -11,6 +11,7 @@
 #import "LiveViewController.h"
 #import "ParameterViewController.h"
 #import "RecViewController.h"
+#import "BFKonashi.h"
 
 @interface LiveViewController () <OLYCameraLiveViewDelegate, OLYCameraPropertyDelegate, OLYCameraRecordingSupportsDelegate>
 
@@ -84,6 +85,10 @@
 	SystemSoundID shutterSoundID;
 	AudioServicesCreateSystemSoundID((__bridge CFURLRef)shutterSoundURL, &shutterSoundID);
 	self.shutterSound = shutterSoundID;
+
+    //Konashi初期化
+    [BFKonashi initialize];
+    [BFKonashi find];
 }
 - (void)didReceiveMemoryWarning
 {
@@ -140,7 +145,6 @@
 - (void)viewDidAppear:(BOOL)animated
 {
 	[super viewDidAppear:animated];
-    [self takePicture];
     [UIApplication sharedApplication].idleTimerDisabled = YES;
 }
 
@@ -949,6 +953,12 @@
 	UIImage *image = OLYCameraConvertDataToImage(data, metadata);
     self.imageView.image = nil; // HACK: Force to refresh UIImageView contents.
 	self.imageView.image = image;
+
+    //画像処理
+
+    //Konashiに送る
+    int a = 1;
+    [BFKonashi pinSend:&a];
 }
 
 - (void)camera:(OLYCamera *)camera didChangeCameraProperty:(NSString *)name
