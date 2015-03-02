@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< .merge_file_02KEec
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="flN-qw-PVF">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="flN-qw-PVF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+>>>>>>> .merge_file_xtFc2n
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -518,7 +525,11 @@
             </objects>
             <point key="canvasLocation" x="1046" y="119"/>
         </scene>
+<<<<<<< .merge_file_02KEec
         <!--Setting View Controller - Setting-->
+=======
+        <!--Setting-->
+>>>>>>> .merge_file_xtFc2n
         <scene sceneID="s4l-gi-NXi">
             <objects>
                 <tableViewController id="UZ8-bn-PYK" customClass="SettingViewController" sceneMemberID="viewController">
